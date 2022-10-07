@@ -18,6 +18,19 @@ html {
 .padded10{
     padding-left: 10%;
 }
+
+.padded15 {
+    padding-left: 15%;
+}
+
+.padded18 {
+    padding-left: 18%;
+}
+.name {
+    font-size: 34pt;
+}
+
+
 .aboutMe{
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -35,10 +48,10 @@ html {
     color: rgb(66, 50, 2);
     color: white;
     text-align: center;
-    padding-left: 3%;
+    padding-left: 7%;
     font-size: 24px;
-    padding-top: 12%;
-    padding-right: 3%;
+    padding-top: 10%;
+    padding-right: 7%;
 
     font-family: Georgia, Times, 'Times New Roman', serif;
 
@@ -49,7 +62,8 @@ html {
 }
 
 .link-table {
-    color:rgb(18, 8, 103);
+    color:rgb(255, 255, 255);
+    font-size: 14pt;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
@@ -85,7 +99,7 @@ html {
 .relevantCoursework {
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     padding-bottom: 0;
     padding-left: 1%;
     padding-top: 2%;
@@ -97,9 +111,9 @@ html {
 .left-table {
     float: left;
     width: 65%;
-    margin-left: 20px;
+    margin-left: 80px;
     text-align: left;
-    text-indent: 5%;
+    text-indent: 3%;
     font-size: 18pt;
     height: 21rem;
     color:rgba(255, 255, 255, 0.867);
@@ -107,20 +121,26 @@ html {
 
 .right-table {
     float: center;
-    width:30%;
-    text-align: center;
+    width:20%;
+    text-indent: 9%;
+    text-align: left;
+    text-anchor: left;
     font-size: 18pt;
     height: 32%;
     color:rgba(255, 255, 255, 0.867);
 }
 
 .table-header {
-    text-align: center;
+    text-align: left;
     text-decoration: underline;
     text-indent: 0%;
     font-size: 20pt;
     padding-bottom: 2pt;
     padding-top: 3pt;
+}
+
+.width30 {
+    width:40%;
 }
 
 .skills_logos img{
@@ -131,37 +151,37 @@ html {
 .pastExperiences {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    padding-bottom: 0;
     padding-left: 1%;
     padding-top: 1%;
-    color: rgb(26, 63, 27);
+    color: rgb(0, 7, 1);
     background-image: url("Images/tahoe.jpg");
     background-repeat: no-repeat;
     background-size: 120% 120%;
     height: 95%;
 }
 
+
+
 .jobDescriptions {
-    padding-left: 17%;
-    padding-right: 17%;
-    color:rgb(7, 7, 41);
-    text-align: center;
-    float: center;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-left: 5%;
+    color:rgb(3, 41, 3);
+    text-align: left;
+    width: 50%;
+    float: left;
     font-size: 20;
 }
 
 .jobDetails {
-    float: center;
-    width: 100%;
+    float: left;
+    width: 25%;
     font-size: 20;
     padding-bottom: -1%;
-    padding-left: 7%;
-    padding-right: 3%;
-    margin-left: 1%;
+    margin-left: 18%;
     padding-top: 1%;
-    color: rgb(3, 98, 14);
-    table-layout: fixed;
-    text-align: center;
+    color: rgb(3, 41, 3);
+    text-align: left;
 }
 
 .textAlignR {
