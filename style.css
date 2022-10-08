@@ -2,7 +2,14 @@
 html {
     scroll-behavior: smooth;
    }
-   
+
+li {
+    margin-bottom: 5pt;
+  }
+
+th{
+    font-weight: normal;
+}
 .bold {
     font-weight: bold;
 }
@@ -22,9 +29,12 @@ html {
 .padded15 {
     padding-left: 15%;
 }
-
 .padded18 {
     padding-left: 18%;
+}
+
+.paddedTop5 {
+    margin-top:1.5%;
 }
 .name {
     font-size: 34pt;
@@ -37,8 +47,8 @@ html {
     padding-top: 7%;
     padding-bottom: 20%;
     color: rgb(8, 79, 13);
-    height: 90%;
-    background-image: url("Images/lookout.JPG") ;
+    height: 95%;
+    background-image: url("images/lookout.JPG") ;
     background-repeat: no-repeat;
     background-size: 100%;
     background-blend-mode: lighten;
@@ -50,7 +60,7 @@ html {
     text-align: center;
     padding-left: 7%;
     font-size: 24px;
-    padding-top: 10%;
+    padding-top: 9%;
     padding-right: 7%;
 
     font-family: Georgia, Times, 'Times New Roman', serif;
@@ -95,6 +105,9 @@ html {
 .emptySpace5 {
     height:5pt;
 }
+.emptySpace1 {
+    height:1pt;
+}
 
 .relevantCoursework {
     font-family:'Times New Roman', Times, serif;
@@ -111,11 +124,11 @@ html {
 .left-table {
     float: left;
     width: 65%;
-    margin-left: 80px;
+    margin-left: 120px;
     text-align: left;
-    text-indent: 3%;
-    font-size: 18pt;
-    height: 21rem;
+    text-indent: 1%;
+    font-size: 19pt;
+    height: 12rem;
     color:rgba(255, 255, 255, 0.867);
 }
 
@@ -125,8 +138,8 @@ html {
     text-indent: 9%;
     text-align: left;
     text-anchor: left;
-    font-size: 18pt;
-    height: 32%;
+    font-size: 19pt;
+    height: 31%;
     color:rgba(255, 255, 255, 0.867);
 }
 
@@ -135,7 +148,7 @@ html {
     text-decoration: underline;
     text-indent: 0%;
     font-size: 20pt;
-    padding-bottom: 2pt;
+    padding-bottom: 1pt;
     padding-top: 3pt;
 }
 
@@ -154,19 +167,19 @@ html {
     padding-left: 1%;
     padding-top: 1%;
     color: rgb(0, 7, 1);
-    background-image: url("Images/tahoe.jpg");
+    background-image: url("images/tahoe.jpg");
     background-repeat: no-repeat;
-    background-size: 120% 120%;
+    background-size: 100% 115%;
     height: 95%;
 }
 
 
 
 .jobDescriptions {
-    padding-right: 2%;
+    padding-right: 4%;
     padding-top: 1%;
     padding-left: 5%;
-    color:rgb(3, 41, 3);
+    color:rgb(0, 44, 0);
     text-align: left;
     width: 50%;
     float: left;
@@ -180,7 +193,7 @@ html {
     padding-bottom: -1%;
     margin-left: 18%;
     padding-top: 1%;
-    color: rgb(3, 41, 3);
+    color: rgb(0, 44, 0);
     text-align: left;
 }
 
@@ -232,7 +245,7 @@ html {
     margin: 10px;
     margin-top: 90px;
     padding: 10px;
-    width: 49%;
+    width: 48%;
     border: 5px solid rgb(98, 52, 11);
     border-radius: 25px;
     float: right;
@@ -242,6 +255,7 @@ html {
     background: rgb(98, 52, 11);
     margin-top: 45px;
     padding: 10px;
+    margin-left: 1%;
     width: 48%;
     border: 5px solid rgb(116, 66, 5);
     border-radius: 25px;
@@ -251,6 +265,7 @@ html {
 .floatBottomLeft {
     background: rgb(222, 183, 142) ;
     margin-top: 285px;
+    margin-left: 1%;
     padding: 10px;
     color: rgb(98, 52, 11);
     width: 49%;
