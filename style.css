@@ -15,7 +15,7 @@ th{
 }
 
 .githubLink{
-    color:rgb(139, 70, 5);
+    color:rgba(247, 190, 99, 0.893);
     font-size: 20px;
     text-decoration: underline;
 }
@@ -32,7 +32,9 @@ th{
 .padded18 {
     padding-left: 18%;
 }
-
+.paddingleft5pt {
+    padding-left: 5pt;
+}
 .paddedTop5 {
     margin-top:1.5%;
 }
@@ -40,14 +42,20 @@ th{
     font-size: 34pt;
 }
 
-
+.location {
+    float:right;
+    font-size: 10pt;
+    font-style: italic;
+    color:rgb(248, 248, 212);
+    padding-right: 2%;
+}
 .aboutMe{
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding-top: 7%;
     padding-bottom: 20%;
-    color: rgb(8, 79, 13);
-    height: 50rem;
+    color: rgb(19, 70, 4);
+    height: 49rem;
     background-image: url("images/lookout.JPG") ;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -59,7 +67,7 @@ th{
     color: white;
     text-align: center;
     padding-left: 7%;
-    font-size: 24px;
+    font-size: 26px;
     padding-top: 9%;
     padding-right: 7%;
 
@@ -85,6 +93,9 @@ th{
 
 .emptySpace {
     height:20pt;
+}
+.emptySpace70{
+    height:140pt;
 }
 .emptySpace5 {
     height:5pt;
@@ -153,7 +164,8 @@ th{
     color: rgb(0, 7, 1);
     background-image: url("images/tahoe.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 115%;
+    background-size: 105% 115%;
+    background-position: right top;
     height: 50rem;
 }
 
@@ -163,11 +175,12 @@ th{
     padding-right: 4%;
     padding-top: 1%;
     padding-left: 5%;
-    color:rgb(0, 44, 0);
+    /*color:rgb(0, 44, 0);*/
+    color:black;
     text-align: left;
     width: 50%;
     float: left;
-    font-size: 20;
+    font-size: 21;
 }
 
 .jobDetails {
@@ -177,7 +190,7 @@ th{
     padding-bottom: -1%;
     margin-left: 18%;
     padding-top: 1%;
-    color: rgb(0, 44, 0);
+    color:black;
     text-align: left;
 }
 
@@ -196,9 +209,10 @@ th{
 
 
 .projects {
-    background-image: linear-gradient(rgb(35, 48, 39), rgb(52, 99, 58));
+    /*background-image: linear-gradient(rgb(1, 33, 3), rgb(52, 99, 58));*/
+    background-image: linear-gradient(rgba(93, 98, 108, 0.84), rgba(41, 50, 76, 0.809));
     background-repeat: no-repeat;
-    color: rgb(239, 207, 173);
+    color: rgb(246, 220, 193);
     background-size: 105% 120%;
     background-blend-mode: lighten;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -212,7 +226,7 @@ th{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 26px;
     padding-top: 3%;
-    color: rgb(222, 183, 142);
+    color: rgb(246, 220, 193);
     justify-content: center;
     display: inline-block;
 }
@@ -220,45 +234,43 @@ th{
 .projDetails {
     font-size:22px;
     padding-top: 1%;
-    color: rgb(205, 164, 120);
+    color:rgb(253, 198, 58);
     padding-bottom: 5%;
 }
 
 .floatRight {
-    background: rgb(116, 66, 5);
+    /*background: rgb(116, 66, 5);*/
+    background:rgba(164, 60, 34, 0.79);
     margin: 10px;
     margin-top: 90px;
     padding: 10px;
     width: 48%;
-    border: 5px solid rgb(98, 52, 11);
+    color:rgb(249, 227, 171);
+    border: 5px solid rgba(217, 96, 66, 0.679);
     border-radius: 25px;
     float: right;
 }
 
 .floatLeft {
-    background: rgb(98, 52, 11);
+    /*background: rgb(98, 52, 11);*/
+    background:rgba(164, 60, 34, 0.79);
     margin-top: 45px;
     padding: 10px;
     margin-left: 1%;
     width: 48%;
-    border: 5px solid rgb(116, 66, 5);
+    border: 5px solid rgba(247, 190, 99, 0.735);
     border-radius: 25px;
     float: left;
 }
 
 .floatBottomLeft {
-    background: rgb(222, 183, 142) ;
+   /* background: rgb(222, 183, 142) ;*/
+    background:rgba(164, 60, 34, 0.79) ;
     margin-top: 285px;
     margin-left: 1%;
     padding: 10px;
-    color: rgb(98, 52, 11);
     width: 49%;
-    border: 6px solid rgb(116, 66, 5);
+    border: 6px solid rgba(243, 128, 40, 0.772);
     border-radius: 25px;
     float: center;
 }
-/*
-background-image: linear-gradient(rgb(191, 128, 80), rgba(190, 120, 155, 0.815));
-
-background-image: linear-gradient(rgb(38, 66, 46), rgba(28, 55, 35, 0.815));
-*/
